@@ -8,14 +8,19 @@ body {
 }
 
 .box-sm {
-
+  width:200px;
+  height:100px;
 }
 
 .box-md {
+  width: 300px;
+  height: 150px;
 
 }
 
 .box-lg{
+  width:500px;
+  height:250px;
 
 }
 
@@ -24,13 +29,23 @@ body {
 }
 
 #yellow {
-
+  background: yellow;
+  margin: 20px 30px;
 }
 
 #red {
+  background-color: red;
+  padding: 5px;
+  border: 5px solid black;
+  margin: auto;
 
 }
 
-#lightblue{
+#blue{
+  background-color: lightblue;
+  margin: 20px 30px;
+  padding:10px;
+
+
 
 }
