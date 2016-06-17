@@ -1,4 +1,4 @@
-* {
+    * {
     font-size: 16px;
     box-sizing: border-box;
 }
@@ -9,21 +9,35 @@ body {
 }
 
 .box-sm {
-    text-align: center;
-    height: 100%;
-    width: 30%;
+    width: 200px;
+    height: 100px;
 }
 
-.box-md {}
+.box-md {
+    width: 300px;
+    height: 150px;
+}
 
-.box-lg {}
+.box-lg {
+    width: 500px;
+    height: 250px;
+}
 
 .border {}
 
-#yellow {}
+#yellow {
+    background: yellow;
+    margin: 20px 30px;
+}
 
-#red {}
+#red {
+    background-color: red;
+    padding: 5px;
+    border: 5px solid black;
+    margin: auto;
+}
 
 #blue {
-    background-color: blue;
-}
+    background-color: lightblue;
+    margin: 20px 30px;
+    padding: 10px;
